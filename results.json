@@ -1,21 +1,29 @@
 {
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/1TJZaJaWMhlqMV7Vx67keJdAv1q-NaXGn#scrollTo=InPDjynfOjPh"
+  },
   "test_preprocess": {
-    "vocab_length": 838
+    "vocab_length": 1804
   },
   "test_build_lm": {
-    "english_2_gram_length": 271,
-    "english_3_gram_length": 6213,
-    "french_3_gram_length": 6414,
-    "spanish_3_gram_length": 6502
+    "english_2_gram_length": 747,
+    "english_3_gram_length": 8238,
+    "french_3_gram_length": 8285,
+    "spanish_3_gram_length": 8468
   },
-  "test_eval": "NameError(\"name 'perplexity' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_3317/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_3317/1798211811.py\", line 25, in test_eval\n    'en_on_en': round(eval(lm, 'en', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3317/2305868400.py\", line 20, in eval\n    pp = perplexity(model, tokens, n)\n         ^^^^^^^^^^\nNameError: name 'perplexity' is not defined\n",
+  "test_eval": {
+    "en_on_en": 31.62,
+    "en_on_fr": 63.88,
+    "en_on_tl": 85.36,
+    "en_on_nl": 72.23
+  },
   "test_generate": {
-    "english_2_gram": "I amell102LLI t.chonstpa",
+    "english_2_gram": "I amell1Gige omyo & he't",
     "english_3_gram": "I amebompirs ans appree ",
     "english_4_gram": "I Lover. Zo Are froming #M",
-    "spanish_2_gram": "Soy  qHesos qups  en ce",
-    "spanish_3_gram": "Soy ensanta oto el \"mil",
+    "spanish_2_gram": "Soy ' Dusos qups  en ce",
+    "spanish_3_gram": "Soy ensanta oto el 200 ",
     "french_2_gram": "Je suis jeitpu s a male s:/",
-    "french_3_gram": "Je suistreil ce prent-\u00eatest"
+    "french_3_gram": "Je suistreil Her lon in vs "
   }
 }
