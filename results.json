@@ -1,0 +1,21 @@
+{
+  "test_preprocess": {
+    "vocab_length": 838
+  },
+  "test_build_lm": {
+    "english_2_gram_length": 271,
+    "english_3_gram_length": 6213,
+    "french_3_gram_length": 6414,
+    "spanish_3_gram_length": 6502
+  },
+  "test_eval": "NameError(\"name 'perplexity' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_3317/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_3317/1798211811.py\", line 25, in test_eval\n    'en_on_en': round(eval(lm, 'en', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3317/2305868400.py\", line 20, in eval\n    pp = perplexity(model, tokens, n)\n         ^^^^^^^^^^\nNameError: name 'perplexity' is not defined\n",
+  "test_generate": {
+    "english_2_gram": "I amell102LLI t.chonstpa",
+    "english_3_gram": "I amebompirs ans appree ",
+    "english_4_gram": "I Lover. Zo Are froming #M",
+    "spanish_2_gram": "Soy  qHesos qups  en ce",
+    "spanish_3_gram": "Soy ensanta oto el \"mil",
+    "french_2_gram": "Je suis jeitpu s a male s:/",
+    "french_3_gram": "Je suistreil ce prent-\u00eatest"
+  }
+}
