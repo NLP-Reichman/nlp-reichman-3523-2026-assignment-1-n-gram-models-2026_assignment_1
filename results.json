@@ -1,6 +1,29 @@
 {
-  "test_preprocess": "NameError(\"name 'LANGS' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 11, in test_preprocess\n    'vocab_length': len(preprocess()),\n                        ^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/3284418225.py\", line 9, in preprocess\n    for lang in LANGS:\n                ^^^^^\nNameError: name 'LANGS' is not defined\n",
-  "test_build_lm": "NameError(\"name 'LANGS' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 16, in test_build_lm\n    'english_2_gram_length': len(build_lm('en', 2, True)),\n                                 ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/1555255716.py\", line 24, in build_lm\n    vocab = preprocess()\n            ^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/3284418225.py\", line 9, in preprocess\n    for lang in LANGS:\n                ^^^^^\nNameError: name 'LANGS' is not defined\n",
-  "test_eval": "NameError(\"name 'LANGS' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 23, in test_eval\n    lm = build_lm('en', 3, True)\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/1555255716.py\", line 24, in build_lm\n    vocab = preprocess()\n            ^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/3284418225.py\", line 9, in preprocess\n    for lang in LANGS:\n                ^^^^^\nNameError: name 'LANGS' is not defined\n",
-  "test_generate": "NameError(\"name 'LANGS' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_3903/1798211811.py\", line 33, in test_generate\n    'english_2_gram': generate('en', 2, \"I am\", 20, 5),\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/542580699.py\", line 25, in generate\n    model = build_lm(lang, n, smoothed=False)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/1555255716.py\", line 24, in build_lm\n    vocab = preprocess()\n            ^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3903/3284418225.py\", line 9, in preprocess\n    for lang in LANGS:\n                ^^^^^\nNameError: name 'LANGS' is not defined\n"
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/1uSO34fNeeLsgNi88eAQ73uhRPWiwloNY"
+  },
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_build_lm": {
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": {
+    "en_on_en": 26.75,
+    "en_on_fr": 58.51,
+    "en_on_tl": 70.61,
+    "en_on_nl": 61.43
+  },
+  "test_generate": {
+    "english_2_gram": "I amell1Gige omyo & he't",
+    "english_3_gram": "I amebompirs ans appree ",
+    "english_4_gram": "I Lover. Zo Are froming #M",
+    "spanish_2_gram": "Soy ' Dusos qups  en ce",
+    "spanish_3_gram": "Soy ensanta oto el 200 ",
+    "french_2_gram": "Je suis jeitpu s a male s:/",
+    "french_3_gram": "Je suistreil Her lon in vs "
+  }
 }
