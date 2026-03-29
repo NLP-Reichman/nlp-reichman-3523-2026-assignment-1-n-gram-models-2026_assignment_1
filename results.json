@@ -1,6 +1,6 @@
 {
   "test_link": {
-    "link": "https://colab.research.google.com/drive/1uSO34fNeeLsgNi88eAQ73uhRPWiwloNY"
+    "link": "https://drive.google.com/file/d/1uSO34fNeeLsgNi88eAQ73uhRPWiwloNY/view?usp=sharing"
   },
   "test_preprocess": {
     "vocab_length": 1804
@@ -25,5 +25,6 @@
     "spanish_3_gram": "Soy ensanta oto el 200 ",
     "french_2_gram": "Je suis jeitpu s a male s:/",
     "french_3_gram": "Je suistreil Her lon in vs "
-  }
+  },
+  "link": "https://drive.google.com/file/d/1uSO34fNeeLsgNi88eAQ73uhRPWiwloNY/view?usp=sharing"
 }
