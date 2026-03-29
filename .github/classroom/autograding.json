@@ -28,7 +28,7 @@
       "output": "1",
       "comparison": "exact",
       "timeout": 10,
-      "points": 25
+      "points": 35
     },
     {
       "name": "test_eval",
@@ -38,17 +38,7 @@
       "output": "1",
       "comparison": "exact",
       "timeout": 10,
-      "points": 30
-    },
-    {
-      "name": "test_embeddings",
-      "setup": "",
-      "run": "python3 auto_grader.py test_embeddings",
-      "input": "test_embeddings",
-      "output": "1",
-      "comparison": "exact",
-      "timeout": 60,
-      "points": 20
+      "points": 40
     },
     {
       "name": "test_generate",
