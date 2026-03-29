@@ -1,7 +1,4 @@
 {
-  "test_link": {
-    "link": "https://colab.research.google.com/drive/1TJZaJaWMhlqMV7Vx67keJdAv1q-NaXGn?usp=sharing"
-  },
   "test_preprocess": {
     "vocab_length": 1804
   },
@@ -12,10 +9,10 @@
     "spanish_3_gram_length": 8468
   },
   "test_eval": {
-    "en_on_en": 31.62,
-    "en_on_fr": 63.88,
-    "en_on_tl": 85.36,
-    "en_on_nl": 72.23
+    "en_on_en": 26.75,
+    "en_on_fr": 58.51,
+    "en_on_tl": 70.61,
+    "en_on_nl": 61.43
   },
   "test_generate": {
     "english_2_gram": "I amell1Gige omyo & he't",
@@ -25,6 +22,5 @@
     "spanish_3_gram": "Soy ensanta oto el 200 ",
     "french_2_gram": "Je suis jeitpu s a male s:/",
     "french_3_gram": "Je suistreil Her lon in vs "
-  },
-  "link": "https://colab.research.google.com/drive/1TJZaJaWMhlqMV7Vx67keJdAv1q-NaXGn?usp=sharing"
+  }
 }
